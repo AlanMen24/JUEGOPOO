@@ -22,6 +22,14 @@
 			else if (izq){
 				x-= 10;
 			}
+			if(x<=30){
+				x+=15;
+			}
+				if(x>=770){
+					x-=15;
+				
+				}
+			
 			controles();
 			}
 		public function controles(){
